@@ -33,7 +33,8 @@
 .form-group .form-control:focus{
     background: transparent;
     color: white;
-    outline:none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 .form-group input::placeholder{
     font-weight:600;
