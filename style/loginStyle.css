@@ -59,18 +59,6 @@
     color: black;
     filter: brightness(90%);
 }
-.login p{
-    padding-left: 15%;
-    visibility:hidden;
-}
-.login .error p{
-    color: red;
-    font-weight: 500;
-    visibility: visible;
-}
-.login .error input{
-    border-color: red;
-}
 #details{
     background-color: rgba(12, 53, 106,.4);
     border-radius: 15px;
@@ -118,4 +106,10 @@
     display: flex;
     gap: 11px;
     justify-content: center;
+}
+form a{
+    color: #D5FFD0;
+    position: relative;
+    left: 200px;
+    top: 10px;
 }
