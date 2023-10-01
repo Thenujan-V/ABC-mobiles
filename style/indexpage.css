@@ -41,8 +41,11 @@ nav .navbar-brand{
     -webkit-box-shadow:none;
     box-shadow: none;
 }
+#navbarNavAltMarkup a i{
+    color: #D5FFD0;
+}
 #logout{
-    background-color: #40e0e6;
+    background-color: #D5FFD0;
     border-radius: 30px;
     color: #063133;
     font-size: 20px;
@@ -94,7 +97,7 @@ section{
 }
 #about{
     background-color: gray;
-    padding: 40px;
+    padding-top: 70px;
 }
 #about h1{
     color:#D5FFD0;
