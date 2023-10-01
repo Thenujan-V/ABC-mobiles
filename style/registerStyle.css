@@ -74,10 +74,11 @@
 }
 #register{
     background-color: rgba(12, 53, 106,.4);
-    border-radius: 15px;
-    width: 40vw;
-    margin: 30px auto;
+    border-radius: 15px;  
+    margin:  auto;
     padding: 10px;
+    position: relative;
+    top: 30px;
 }
 #register .top{
     display: flex;
