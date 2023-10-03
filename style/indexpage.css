@@ -116,5 +116,8 @@ section{
     background-color: black !important;
     color: red;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+#product .card{
+    background-color: #40e0e6;
 }

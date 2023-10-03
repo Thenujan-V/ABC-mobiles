@@ -16,16 +16,20 @@
         $color =  $rows['color'];
         $memory =  $rows['memory'];
         $price =  $rows['price'];
-
-        echo `<p>dgbhnh</p>`;
         
-        echo `<div class='card'>
-                <div id="model">`.$model.`</div>
-                <div id="color">`.$color.`</div>
-                <div id="memory">`.$memory.`</div>
-                <div id="price">`.$price.`</div>
-              </div>`;
+        // echo `<div class='card'>
+        //         <div id="model">`.$model.`</div>
+        //         <div id="color">`.$color.`</div>
+        //         <div id="memory">`.$memory.`</div>
+        //         <div id="price">`.$price.`</div>
+        //       </div>`;
         // echo $rows['image'];
+        echo "<div class='card'>
+                <div id='model'>$model</div>
+                <div id='color'>$color</div>
+                <div id='memory'>$memory</div>
+                <div id='price'>$price</div>
+              </div>";
         
           
     }

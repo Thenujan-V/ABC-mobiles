@@ -65,7 +65,7 @@
       </div>
     </div>
   </section>
-  <div id="product">
+  <div id="product" >
     <?php include 'product.php' ?>
   </div>
 
