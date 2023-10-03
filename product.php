@@ -16,6 +16,7 @@
         $color =  $rows['color'];
         $memory =  $rows['memory'];
         $price =  $rows['price'];
+        $image = $rows['image'];
         
         // echo `<div class='card'>
         //         <div id="model">`.$model.`</div>
@@ -25,6 +26,9 @@
         //       </div>`;
         // echo $rows['image'];
         echo "<div class='card'>
+                <div id='image'>
+                    <img src=''></img>
+                </div>
                 <div id='model'>$model</div>
                 <div id='color'>$color</div>
                 <div id='memory'>$memory</div>
