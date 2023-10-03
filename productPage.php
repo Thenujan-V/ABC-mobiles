@@ -47,8 +47,7 @@
         <div class="container m-3">
             <h1 class="text-center my-5" data-aos="fade-up"
             data-aos-anchor-placement="center-center">OUR PRODUCTS</h1>
-
-            <div id="product">
+            <div id="product" class="row">
                 <?php include 'product.php' ?>
             </div>
         </div>

@@ -114,9 +114,9 @@ section{
 }
 #product{
     background-color: rgb(44, 249, 13) !important; 
-    color: red;
+    color: rgb(128, 0, 255);
     display: flex;
-    gap: 300px;
+    gap: 0px;
 }
 #product .card{
     background-color: #01191a;
