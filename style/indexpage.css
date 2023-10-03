@@ -112,3 +112,9 @@ section{
 #second{
     margin-top: -60px;
 }
+#product{
+    background-color: black !important;
+    color: red;
+    display: flex;
+    flex-direction: column;
+}
