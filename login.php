@@ -7,11 +7,12 @@
 
     $connection = mysqli_connect($server,$username,$password,$database);
 
-    session_start();
+    
     if(!$connection){
         die('connection field'.mysqli_connect_error());
     } 
     elseif($_POST['submit']){
+        session_start();
         $username = $_POST['username'];
         $password = $_POST['password'];
 
@@ -43,7 +44,7 @@
         }   
         elseif(mysqli_num_rows($result) > 0){
             if($password == $row["password"]){
-                $_SESSION['username'] = $fetch["username"];
+                //$_SESSION['username'] = $fetch["username"];
                 header("location:index.php");
             }
             else{

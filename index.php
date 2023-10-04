@@ -25,7 +25,7 @@
                 <button class="btn btn-outline-success" type="submit" id="searchbtn">Search</button>
               </form>
             </div>
-            <a href="#"><i class="fa-solid fa-user fa-xl"></i></a>
+            <a href="profile.php"><i class="fa-solid fa-user fa-xl"></i></a>
             <button id="logout" class="btn mx-5">logout</button>
           </div>
         </div>
@@ -80,5 +80,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-</body>
+    <script src="Js/operations.js"></script>
+  </body>
 </html>
