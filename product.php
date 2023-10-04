@@ -26,8 +26,8 @@
         //       </div>`;
         // echo $rows['image'];
         echo "
-            <div class='col-lg-4 col-md-4 col-12'>
-                <div class='card' style='width: 18rem;'>
+            <div class='col-xl-3 col-lg-6 col-md-6 col-12'>
+                <div class='card mx-auto' style='width: 18rem;'>
                     <img src='$image' class='card-img-top' alt='...'>
                     <div class='card-body text-center'>
                         <h5 class='card-title'>$model</h5>

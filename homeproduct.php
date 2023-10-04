@@ -7,7 +7,7 @@
 
     $connection = mysqli_connect($server,$username,$password,$database);
 
-    $sql = "select * from abcproductsi join productsimg on abcproductsi.id = productsimg.id where abcproductsi.id = 1 or abcproductsi.id = 27 or abcproductsi.id = 38";
+    $sql = "select * from abcproductsi join productsimg on abcproductsi.id = productsimg.id where abcproductsi.id = 1 or abcproductsi.id = 28 or abcproductsi.id = 38 or abcproductsi.id = 8";
     $result = mysqli_query($connection,$sql);
 
     
@@ -26,8 +26,8 @@
         //       </div>`;
         // echo $rows['image'];
         echo "
-            <div class='col-lg-4 col-md-4 col-12'>
-                <div class='card' style='width: 18rem;'>
+            <div class='col-xl-3 col-lg-6 col-md-6 col-12'>
+                <div class='card mx-auto' style='width: 18rem;'>
                     <img src='$image' class='card-img-top' alt='...'>
                     <div class='card-body text-center'>
                         <h5 class='card-title'>$model</h5>

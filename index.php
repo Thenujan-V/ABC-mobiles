@@ -72,6 +72,9 @@
             <div id="product" class="row">
                 <?php include 'homeproduct.php' ?>
             </div>
+            <div class="text-center my-5">
+              <a href="productPage.php" class="btn" id="showmore">Show more</a>
+            </div>
         </div>
     </section>
 
