@@ -7,7 +7,7 @@
 
     $connection = mysqli_connect($server,$username,$password,$database);
 
-    $sql = "select * from abcproductsi join productsimg on abcproductsi.id = productsimg.id";
+    $sql = "select * from abcproductsi join productsimg on abcproductsi.id = productsimg.id where abcproductsi.id = 1 or abcproductsi.id = 27 or abcproductsi.id = 38";
     $result = mysqli_query($connection,$sql);
 
     
@@ -38,4 +38,5 @@
                 </div>
             </div>";
     }
+
 ?>

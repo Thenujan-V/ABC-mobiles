@@ -16,17 +16,20 @@
 
         $sql = "select * from customersdatas where email = '$username'";
         $sqlSuperAdmin = "select * from superadminabcistore where username = '$username'";
-        
+        $sqlAdmin = "select * from adminabcistore where username = '$username'";
 
         $result = mysqli_query($connection,$sql);
         $resultSuperAdmin = mysqli_query($connection,$sqlSuperAdmin);
+        $resultAdmin = mysqli_query($connection,$sqlAdmin);
         
         $row = mysqli_fetch_assoc($result);
         $rowSuperAdmin = mysqli_fetch_assoc($resultSuperAdmin);
+        $rowAdmin = mysqli_fetch_assoc($resultAdmin);
+
 
         if(mysqli_num_rows($resultSuperAdmin) > 0){
             if($password == $rowSuperAdmin["password"]){
-                header("location:indexAdmin.html");
+                header("location:indexSuperAdmin.html");
             }
             else{
                 echo
@@ -36,6 +39,15 @@
         elseif(mysqli_num_rows($result) > 0){
             if($password == $row["password"]){
                 header("location:index.php");
+            }
+            else{
+                echo
+                "<script>alert('something went to wrong...')</script>";
+            }
+        }
+        elseif(mysqli_num_rows($resultAdmin) > 0){
+            if($password == $rowAdmin["password"]){
+                header("location:indexAdmin.html");
             }
             else{
                 echo

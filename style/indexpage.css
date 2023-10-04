@@ -10,6 +10,7 @@
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 1000;
 }
 nav .navbar-brand{
     color: #D5FFD0 !important;
@@ -111,13 +112,4 @@ section{
 }
 #second{
     margin-top: -60px;
-}
-#product{
-    background-color: rgb(44, 249, 13) !important; 
-    color: rgb(128, 0, 255);
-    display: flex;
-    gap: 0px;
-}
-#product .card{
-    background-color: #01191a;
 }
