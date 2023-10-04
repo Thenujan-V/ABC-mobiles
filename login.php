@@ -7,6 +7,7 @@
 
     $connection = mysqli_connect($server,$username,$password,$database);
 
+    session_start();
     if(!$connection){
         die('connection field'.mysqli_connect_error());
     } 
@@ -22,6 +23,10 @@
         $resultSuperAdmin = mysqli_query($connection,$sqlSuperAdmin);
         $resultAdmin = mysqli_query($connection,$sqlAdmin);
         
+        $fetch = mysqli_fetch_array($result);
+        $fetchSuperAdmin = mysqli_fetch_array($resultSuperAdmin);
+        $fetchAdimn = mysqli_fetch_array($resultAdmin);
+
         $row = mysqli_fetch_assoc($result);
         $rowSuperAdmin = mysqli_fetch_assoc($resultSuperAdmin);
         $rowAdmin = mysqli_fetch_assoc($resultAdmin);
@@ -38,6 +43,7 @@
         }   
         elseif(mysqli_num_rows($result) > 0){
             if($password == $row["password"]){
+                $_SESSION['username'] = $fetch["username"];
                 header("location:index.php");
             }
             else{
