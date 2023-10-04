@@ -15,7 +15,7 @@
         $phone_No = $_POST['PhoneNumber'];
         $password = $_POST['Password'];
 
-        $sql = "insert into adminabcistore (name,email,phoneno,password)
+        $sql = "insert into adminabcistore (name,username,phone_no,password)
                 values ('$name','$mail','$phone_No','$password')";
         
         mysqli_query($connection,$sql);

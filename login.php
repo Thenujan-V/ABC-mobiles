@@ -24,9 +24,9 @@
         $resultSuperAdmin = mysqli_query($connection,$sqlSuperAdmin);
         $resultAdmin = mysqli_query($connection,$sqlAdmin);
         
-        $fetch = mysqli_fetch_array($result);
-        $fetchSuperAdmin = mysqli_fetch_array($resultSuperAdmin);
-        $fetchAdimn = mysqli_fetch_array($resultAdmin);
+        // $fetch = mysqli_fetch_array($result);
+        // $fetchSuperAdmin = mysqli_fetch_array($resultSuperAdmin);
+        // $fetchAdimn = mysqli_fetch_array($resultAdmin);
 
         $row = mysqli_fetch_assoc($result);
         $rowSuperAdmin = mysqli_fetch_assoc($resultSuperAdmin);

@@ -9,3 +9,14 @@
     filter: brightness(150%);
     color: #094a54;
 }
+#product{
+    background-color: #D5FFD0;
+    border-radius: 30px;
+    color: #063133;
+    font-size: 20px;
+    font-weight: 600;
+}
+#product:hover{
+    filter: brightness(150%);
+    color: #094a54;
+}

@@ -32,11 +32,8 @@
     </nav>
 
     <!--Home-->
-    <section id="home">
-      <h1 class="text-center"  data-aos="fade-zoom-in"
-      data-aos-easing="ease-in-back"
-      data-aos-delay="400"
-      data-aos-offset="0">ABC iStore</h1>
+    <section id="home" >
+      <h1 class="text-center">ABC iStore</h1>
       <p>"Unlocking the future, one Apple at a time."</p>
       <div class="input-group m-4">
           <input type="text" placeholder="Ask something for your need" class="form-control">
