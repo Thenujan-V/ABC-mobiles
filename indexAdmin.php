@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/indexpage.css">
+    <link rel="stylesheet" href="style/admin.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>ABC mobiles</title>
@@ -17,16 +18,16 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="indexAdmin.php">Home</a>
               <a class="nav-link" href="#about">About Us</a>
-              <a class="nav-link" href="productPage.php">Product</a> 
+              <a class="nav-link" href="adminProduct.php">Product</a> 
               <form class="d-flex">
                 <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="search">
                 <button class="btn btn-outline-success" type="submit" id="searchbtn">Search</button>
               </form>
             </div>
-            <a href="profile.php"><i class="fa-solid fa-user fa-xl"></i></a>
-            <button id="logout" class="btn mx-5">logout</button>
+            <button id="product" class="btn">+ product</button>
+            <button id="logout" class="btn mx-4">logout</button>
           </div>
         </div>
     </nav>
@@ -62,18 +63,7 @@
       </div>
     </div>
   </section>
-  <section id="productpage">
-        <div class="container m-3">
-            <h1 class="text-center my-5" data-aos="fade-up"
-            data-aos-anchor-placement="center-center">OUR PRODUCTS</h1>
-            <div id="productpage" class="row">
-                <?php include 'homeproduct.php' ?>
-            </div>
-            <div class="text-center my-5">
-              <a href="productPage.php" class="btn" id="showmore">Show more</a>
-            </div>
-        </div>
-    </section>
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

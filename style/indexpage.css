@@ -113,11 +113,11 @@ section{
 #second{
     margin-top: -60px;
 }
-#product{
+#productpage{
     background:#40e0e6;
     color: rgb(17, 0, 255);
 }
-#product h1{
+#productpage h1{
     letter-spacing: 6px;
     font-size: 50px;
     font-weight: 700;
@@ -141,7 +141,7 @@ section{
     color: #0C356A;
     font-weight: 600 !important;
 }
-#product img{
+#productpage img{
     height: 300px; 
     border-radius:20px !important;
 }

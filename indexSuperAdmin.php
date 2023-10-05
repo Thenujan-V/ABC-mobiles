@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/indexpage.css">
     <link rel="stylesheet" href="style/admin.css">
+    <link rel="stylesheet" href="style/indexpage.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>ABC mobiles</title>
@@ -18,9 +19,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="indexSuperAdmin.php">Home</a>
               <a class="nav-link" href="#about">About Us</a>
-              <a class="nav-link" href="productPage.php">Product</a> 
+              <a class="nav-link" href="superProduct.php">Product</a> 
               <form class="d-flex">
                 <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="search">
                 <button class="btn btn-outline-success" type="submit" id="searchbtn">Search</button>
