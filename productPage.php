@@ -17,7 +17,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto">
-              <a class="nav-link" href="index.php">Home</a>
+              <a class="nav-link" href="indexUser.php">Home</a>
               <a class="nav-link" href="#">Product</a> 
               <form class="d-flex">
                 <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="search">

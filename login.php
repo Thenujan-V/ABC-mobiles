@@ -45,7 +45,7 @@
         elseif(mysqli_num_rows($result) > 0){
             if($password == $row["password"]){
                 //$_SESSION['username'] = $fetch["username"];
-                header("location:index.php");
+                header("location:indexUser.php");
             }
             else{
                 echo
