@@ -76,7 +76,7 @@
                       <div class="mt-5"><h5 class='card-title '></h5>
                         <p class='card-text'></p>
                         <p class='card-text'></p></div>
-                      <a href='#' class='btn btn-primary'>Add product</a>                   
+                      <a href='addProducts.html' class='btn btn-primary'>Add product</a>                   
                   </div>
               </div>
             </div>
