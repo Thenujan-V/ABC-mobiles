@@ -44,20 +44,20 @@
   <!--About-->
   <section id="about">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-12">
+        <div class="row" id="first">
+            <div class="col-lg-6 col-md-12 col-12" id="firstpara">
               <h1 class="text-center">About us</h1>
-              <p>"Welcome to ABC mobiles, your premier destination for all things Apple. With a deep passion for innovation and a dedication to delivering the best in mobile technology, we've been serving iPhone enthusiasts and Apple aficionados since 2000. At ABC mobiles, we're more than just a shop; we're a community of Apple enthusiasts who understand the love for sleek design, cutting-edge features, and seamless performance."</p>
+              <p>"Welcome to ABC mobiles, your premier destination for all things Apple. With a deep passion for innovation and a dedication to delivering the best in mobile technology, we've been serving iPhone enthusiasts and Apple aficionados since 2000. At ABC mobiles, we're more than just a shop; we're a community of Apple enthusiasts who understand the love for sleek design, cutting-edge features, and seamless ."</p>
             </div>
-            <div class="col-lg-6 col-md-6 col-12">
+            <div class="col-lg-6 col-md-12 col-12">
               <img src="media/apple.jpg" alt="" class="img-fluid">
             </div>     
         </div>
         <div class="row" id="secondAout">
-            <div class="col-lg-6 col-md-6 col-12" id="second">
+            <div class="col-lg-6 col-md-12 col-12" id="second">
               <img src="media/phones.jpg" alt="" class="img-fluid">
             </div>
-            <div class="col-lg-6 col-md-6 col-12" id="secondPara">
+            <div class="col-lg-6 col-md-12 col-12" id="secondPara">
               <p class="my-3">Welcome to ABC mobiles, your premier destination for all things Apple. With a deep passion for innovation and a dedication to delivering the best in mobile technology, we've been serving iPhone enthusiasts and Apple aficionados since 2000. At ABC mobiles, we're more than just a shop; we're a community of Apple enthusiasts who understand the love for</p>
             </div>
       </div>

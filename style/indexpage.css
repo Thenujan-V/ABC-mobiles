@@ -99,6 +99,7 @@ section{
 #about{
     background-color: gray;
     padding-top: 70px;
+
 }
 #about h1{
     color:#D5FFD0;
@@ -172,13 +173,48 @@ section{
     color: white;
     box-shadow: 2px 4px 5px rgba(22, 22, 22,.4) ;
 }
+@media only screen and (max-width: 1200px) {
+    #second{
+        position: relative;
+        top: 20px;
+    }
+    
+}
+@media only screen and (max-width: 992px) {
+    #second{
+        position: relative;
+        top: 150px;
+    }
+
+    #secondPara{
+        position: relative;
+        bottom: 460px;
+        line-height: 25px;
+    }
+    #first{
+        position: relative;
+        bottom: 60px;
+    }
+    #firstpara p{
+        line-height: 25px;
+    }
+}
 @media only screen and (max-width: 768px) {
     #second{
         position: relative;
-        top: 200px;
+        top: 170px;
     }
+
     #secondPara{
         position: relative;
-        bottom: 280px;
+        bottom: 350px;
+        line-height: 25px;
+    }
+    #first{
+        position: relative;
+        bottom: 60px;
+    }
+    #firstpara p{
+        line-height: 25px;
     }
 }

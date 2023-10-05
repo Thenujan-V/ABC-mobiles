@@ -46,21 +46,22 @@
   <!--About-->
   <section id="about">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-12 ">
-          <img src="media/apple.jpg" alt="" class="img-fluid">
+        <div class="row" id="first">
+            <div class="col-lg-6 col-md-12 col-12" id="firstpara">
+              <h1 class="text-center">About us</h1>
+              <p>"Welcome to ABC mobiles, your premier destination for all things Apple. With a deep passion for innovation and a dedication to delivering the best in mobile technology, we've been serving iPhone enthusiasts and Apple aficionados since 2000. At ABC mobiles, we're more than just a shop; we're a community of Apple enthusiasts who understand the love for sleek design, cutting-edge features, and seamless ."</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+              <img src="media/apple.jpg" alt="" class="img-fluid">
+            </div>     
         </div>
-        <div class="col-lg-6 col-md-6 col-12">
-          <h1 class="text-center">About us</h1>
-          <p>"Welcome to ABC mobiles, your premier destination for all things Apple. With a deep passion for innovation and a dedication to delivering the best in mobile technology, we've been serving iPhone enthusiasts and Apple aficionados since 2000. At ABC mobiles, we're more than just a shop; we're a community of Apple enthusiasts who understand the love for sleek design, cutting-edge features, and seamless performance. Our team of Apple-certified experts is here to assist you in finding the perfect iPhone, iPad, Mac, or accessory to enhance your digital lifestyle. Come experience the world of Apple with us, where every purchase is a step into the future of technology."</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-12">
-            <p class="my-3">"Welcome to ABC mobiles, your premier destination for all things Apple. With a deep passion for innovation and a dedication to delivering the best in mobile technology, we've been serving iPhone enthusiasts and Apple aficionados since 2000. At ABC mobiles, we're more than just a shop; we're a community of Apple enthusiasts who understand the love for sleek design, cutting-edge features, and seamless performance. Our team of Apple-certified experts is here to assist you in finding the perfect iPhone, iPad, Mac, or accessory to enhance your digital lifestyle. Come experience the world of Apple with us, where every purchase is a step into the future of technology."</p>
-          </div>
-          <div class="col-lg-6 col-md-6 col-12" id="second">
-            <img src="media/phones.jpg" alt="" class="img-fluid">
-          </div>
+        <div class="row" id="secondAout">
+            <div class="col-lg-6 col-md-12 col-12" id="second">
+              <img src="media/phones.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-12 col-12" id="secondPara">
+              <p class="my-3">Welcome to ABC mobiles, your premier destination for all things Apple. With a deep passion for innovation and a dedication to delivering the best in mobile technology, we've been serving iPhone enthusiasts and Apple aficionados since 2000. At ABC mobiles, we're more than just a shop; we're a community of Apple enthusiasts who understand the love for</p>
+            </div>
       </div>
     </div>
   </section>
@@ -70,16 +71,17 @@
             <h1 class="text-center my-5" data-aos="fade-up"
             data-aos-anchor-placement="center-center">OUR PRODUCTS</h1>
             <div id="productpage" class="row">
-              <?php include 'adminsProduct.php' ?>
-              <div class='card mx-auto' style='width: 18rem;'>
-                  <img src='media/mobile.png' class='card-img-top' alt='...'>
-                  <div class='card-body text-center'>
-                        <h5 class='card-title'>$model</h5>
-                        <p class='card-text'>$color, $memory</p>
-                        <p class='card-text'>$price</p>
-                      <a href='#' class='btn btn-primary'>Add product</a>                   
+                <?php include 'adminsProduct.php' ?>
+                <div class='card mx-auto' style='width: 18rem;'>
+                  <img src='media/mobile.png' class='card-img-top mt-3' alt='...'>
+                  <div class='card-body text-center mt-5'>
+                      <div class="mt-5"><h5 class='card-title '></h5>
+                        <p class='card-text'></p>
+                        <p class='card-text'></p></div>
+                      <a href='addProducts.html' class='btn btn-primary'>Add product</a>                   
                   </div>
               </div>
+            </div>
             <div class="text-center my-5">
               <a href="productPage.php" class="btn" id="showmore">Show more</a>
             </div>
