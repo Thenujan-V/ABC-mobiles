@@ -31,7 +31,7 @@
     </nav>
 
     <!--Home-->
-    <section id="home">
+    <section id="home" style="background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(media/pads.jpg) ;background-size: cover;background-position: center;">
       <h1 class="text-center"  data-aos="fade-zoom-in"
       data-aos-easing="ease-in-back"
       data-aos-delay="400"

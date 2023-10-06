@@ -35,7 +35,7 @@
 
         if(mysqli_num_rows($resultSuperAdmin) > 0){
             if($password == $rowSuperAdmin["password"]){
-                header("location:indexSuperAdmin.html");
+                header("location:indexSuperAdmin.php");
             }
             else{
                 echo
@@ -54,7 +54,7 @@
         }
         elseif(mysqli_num_rows($resultAdmin) > 0){
             if($password == $rowAdmin["password"]){
-                header("location:indexAdmin.html");
+                header("location:indexAdmin.php");
             }
             else{
                 echo
